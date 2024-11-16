@@ -1,0 +1,42 @@
+.banner{
+    background-color: rgb(87, 84, 84);
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: white;
+}
+
+#profile .profile{
+    flex-direction: column-reverse;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+#profile .col-left{
+    width: 250px;
+    height: 360px;
+}
+#profile .col-right{
+    width: 100%;
+}
+#profile .col-right p {
+    margin-bottom: 20px;
+}
+#profile .col-left .profile-img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border: 10px solid white;
+}
+#profile .col-left .profile-img ::after{
+    content: '';
+    position: absolute;
+    left: -33px;
+    top: 19px;
+    height: 98%;
+    width: 98%;
+    border: 7px solid crimson;
+    z-index: -1;
+}
+
