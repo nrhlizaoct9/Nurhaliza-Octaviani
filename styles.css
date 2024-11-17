@@ -3,7 +3,7 @@
     background-size: cover;
     background-position: top center;
     position: relative;
-    padding-top: 10%;
+    padding-top: 15%;
     padding-bottom: 15%;
     color: white;
     z-index: 1;
@@ -25,7 +25,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px; 
-  }
+}
   
 .profile-text {
     flex: 1;
