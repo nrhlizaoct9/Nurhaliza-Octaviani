@@ -45,5 +45,45 @@
     object-position: center;
 }
   
+/* Timeline container */
+.timeline {
+    position: relative;
+    margin-top: 40px;
+    padding-left: 50px;
+    border-left: 4px solid #dee2e6; /* Garis bercabang */
+    color: white;
+  }
+  
+  /* Timeline item */
+  .timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 30px;
+  }
+  
+  /* Timeline icon */
+  .timeline-icon {
+    position: absolute;
+    left: -22px; /* Mengatur posisi di garis */
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #007bff;
+  }
+  
+  /* Timeline content */
+  .timeline-content {
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timeline-content h5 {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
   
 
